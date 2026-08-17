@@ -1,5 +1,3 @@
-// Problem Link : https://leetcode.com/problems/reverse-integer/
-
 class Solution {
 public:
     int reverse(int x) {
@@ -15,5 +13,3 @@ public:
         return ans;;
     }
 };
-// Time Complexity: O(log n)
-// Space Complexity: O(1)
