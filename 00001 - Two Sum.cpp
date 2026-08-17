@@ -1,6 +1,4 @@
-// Problem Link : https://leetcode.com/problems/two-sum/description/
-
-// Brute Force Approach :
+// Brute Force Approach 
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -15,8 +13,6 @@ public:
         return {};
     }
 };
-// Time Complexity : O(n^2)  
-// Space Complexity: O(1)
 
 // Optimal Approach : Hash Map
 class Solution {
@@ -37,5 +33,3 @@ public:
         return {-1, -1};
     }
 };
-// Time Complexity: O(n)
-// Space Complexity: O(n)
