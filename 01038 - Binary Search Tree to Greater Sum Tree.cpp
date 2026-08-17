@@ -4,13 +4,11 @@ public:
         if (!root) {
             return;
         }
-
         solve(root->right, sum);
         sum += root->val;
         root->val = sum;
         solve(root->left, sum);
     }
-
     TreeNode* bstToGst(TreeNode* root) {
         int sum = 0;
         solve(root, sum);
