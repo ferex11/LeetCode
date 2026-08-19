@@ -1,5 +1,3 @@
-// Problem Link : https://leetcode.com/problems/add-two-numbers/description/
-
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
@@ -28,6 +26,3 @@ public:
         return dummyNode->next;
     }
 };
-// Time Complexity : O(max(n, m))
-// where n = length of first list, m = length of second list
-// Space Complexity: O(max(n, m))
