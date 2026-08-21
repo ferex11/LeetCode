@@ -1,5 +1,3 @@
-// Problem Link : https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/
-
 class Solution {
 public:
     int findMin(vector<int>& nums) {
@@ -24,5 +22,3 @@ public:
         return ans;
     }
 };
-// Time Complexity : O(log n)
-// Space Complexity : O(1)
